@@ -358,12 +358,12 @@ margin: 50px 0 0 0;
 }
 
 .faq h2 {
-  margin: 40px;
+  margin-bottom: 40px;
   line-height: 1;
 }
 
 .faq-content {
- margin: 50px;
+ margin-bottom: 50px;
 }
 
 .faq-content h4 {
@@ -603,12 +603,14 @@ About Page
   justify-content: space-between;
   align-items: flex-start;
 }
-
+.contact-content h4 {
+  font-size: 1.5em;
+}
 /* ==========================================================================
 FAQ Page
 ========================================================================== */
 
-faq .content-wrapper {
+.faq .content-wrapper {
   justify-content: space-between;
 }
 
