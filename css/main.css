@@ -95,6 +95,7 @@ body {
   font-size: 1em;
   text-align: left;
   color: #e2e3ed;
+  background-color: #202322;
 }
  
 ul, 
@@ -113,6 +114,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
  
 h3, 
@@ -147,7 +149,7 @@ address {
 header {
   display: flex;
   justify-content: center;
-  padding: 15px;
+  padding: 15px 0;
   background-color: #202322;
 }
 
@@ -298,10 +300,6 @@ input[type=button] {
   margin: 30px 0;
 }
 
-.features i {
-	font-size: 3.75em;
-    margin-bottom: 40px;
-}
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -309,6 +307,10 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+}
 .features p {
   margin: 0;
   text-align: center;
@@ -528,6 +530,9 @@ header nav ul {
 
 /* Hero Area*/
 
+.hero-area {
+  min-height: 600px;
+}
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
@@ -552,6 +557,10 @@ aside .content-wrapper .form {
 .features h2 {
   margin-bottom: 20px;
 }
+
+.features .features-items {
+  align-items: flex-start;
+}
 .features article {
   display: flex;
   align-items: center;
@@ -563,6 +572,9 @@ aside .content-wrapper .form {
   width: 62%;
 }
 
+.features i {
+  margin-bottom: 30px;
+}
 /* Reviews */
 
 .reviews article {
@@ -585,11 +597,10 @@ aside .content-wrapper .form {
     width: 65%;
   }
 
-  .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
   }
 
   footer .contact {
@@ -607,7 +618,7 @@ aside .content-wrapper .form {
     width: 12.5em;
     justify-content: space-between;
   }
-  
+
   footer .copyright {
     width: 100%;
   }
@@ -627,19 +638,7 @@ About Page
   width: 45%;
 }
 .map figure {
-  width: 100%;
-  height: 0;
-  padding-bottom: 45%;
-  overflow: hidden;
-  position: relative;
-}
-
-.map iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding-bottom: 45.5%;
 }
 .contact-section .content-wrapper h2 {
   width: 80%;
@@ -704,7 +703,7 @@ p {
 /* Hero */
 .hero-area h1 {
   width: 80%;
-  
+  font-size: 3.75em;
 }
 
 /* Aside */
@@ -714,6 +713,10 @@ aside .content-wrapper {
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
   width: 30%;
+}
+
+.form-description p {
+  font-size: 1.125em;
 }
   /* Features */
 
@@ -741,20 +744,9 @@ aside .content-wrapper .form {
   ========================================================================== */
 
   .map figure {
-    width: 100%;
-    height: 0;
-    padding-bottom: 37%;
-    overflow: hidden;
-    position: relative;
+    padding-bottom: 37.5%;
   }
-  
-  .map iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
