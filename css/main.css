@@ -610,7 +610,21 @@ About Page
 .mission-content p {
   width: 45%;
 }
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 45%;
+  overflow: hidden;
+  position: relative;
+}
 
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
@@ -710,6 +724,21 @@ aside .content-wrapper .form {
   About Page
   ========================================================================== */
 
+  .map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom: 37%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
